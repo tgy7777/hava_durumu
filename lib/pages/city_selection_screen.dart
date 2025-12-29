@@ -48,7 +48,7 @@ class _WeatherSearchPageState extends State<WeatherSearchPage> {
                   fontSize: 18,
                 ),
               ),
-              const Text("Lütfen Şehir Seçin"),
+              const Text(" Şehir Seçin"),
               DropdownButton<String>(
                 value: selectedCity,
                 items: cities.map((String city) {

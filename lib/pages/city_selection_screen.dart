@@ -71,7 +71,7 @@ class _WeatherSearchPageState extends State<WeatherSearchPage> {
                 onPressed: () {
                   getCityCoordinates(selectedCity, context);
                 },
-                child: const Text("Hava Durumunu Getir"),
+                child: const Text("Hava Durumunu Getir.."),
               ),
             ],
           ),
